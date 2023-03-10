@@ -1,4 +1,5 @@
 const store = require("./rtk/app/store");
+require("util").inspect.defaultOptions.depth = null;
 
 const {
   fetchRelatedVideo,
